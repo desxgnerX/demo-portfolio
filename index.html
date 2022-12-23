@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tanaka Sipindiye Portofolio</title>
+
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+
+	<!--Google reCAPTURE-->
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body>
+
+	<!----header design--->
+	<header>
+		<a href="#" class="logo">desxgner<span>X</span></a>
+
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#stack">Stack</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon">
+
+		</div>
+	</header>
+
+	<!----home section design--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello I'm</span>
+				<!-- <span class="two">I'm</span> -->
+			</div>
+			<h1>Tanaka</h1>
+			<h3>Creative<span> Designer.</span></h3>
+			<p>Developer and artist with a flair for visual aesthetics <br> and clean, interactive, functional code.</p>
+			<div class="button">
+				<a href="#contact" class="btn">Say Hello</a>
+				<a href="#stack" class="btn2"><span><i class='bx bx-code-alt'></i></span>Check my Stack</a>
+			</div>
+		</div>
+	</section>
+
+	<!----about section design--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/IMG_20220116_112338_299.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Creative Designer!</h4>
+			<p>Style. Substance. Imagination. </br> Tanaka is a final year student studying Computer Science(Hons.),
+				with a fiery passion in web development and design, digital marketing and graphic design. He is well
+				versed in digital trends, as well as having an enthusiastic interest in developing functional, clean
+				code. He also recently became part of the Younglings Africa, a program "dedicated to creating an
+				environment for young people who aspire to become Software Developers and are passionate about the
+				craft". This are journeys that he engaged himself in after serving as a Google Developer Students Club(GDSC) Lead. </p>
+			<a href="#contact" class="btn">Say hie!</a>
+		</div>
+	</section>
+
+	<!----service section design--->
+	<section class="stack" id="stack">
+		<div class="main-text">
+			<p>What I Do</p>
+			<h2><span>My</span> Stack</h2>
+		</div>
+
+		<div class="stack-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-mobile-alt'></i>
+				</div>
+				<h3>Web Design</h3>
+				<div class="stack-imageDiv">
+					<img src="img/balazs-ketyi-_x335IZXxfc-unsplash.jpg">
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-code-alt'></i>
+				</div>
+				<h3>Web Development</h3>
+				<div class="stack-imageDiv">
+					<img src="img/mohammad-rahmani-N5bT5RctFZ8-unsplash.jpg">
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt'></i>
+				</div>
+				<h3>Creative Design</h3>
+				<div class="stack-imageDiv">
+					<img src="img/nick-adams-yTWq8n3-4k0-unsplash.jpg">
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt'></i>
+				</div>
+				<h3>Digital Marketing</h3>
+				<div class="stack-imageDiv">
+					<img src="img/aman-pal-15r9RAOy38Q-unsplash.jpg">
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!----contact section design--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<h4>If You Would Like To Know More</h4>
+			<p>I'm a Ceative Designer - creating bold & brave development and designs.</p>
+			<div class="list">
+				<li><a href="#">(+27)060 562 3467</a></li>
+				<li><a href="#">alexander.sipindiye@gmail.com</a></li>
+				<li><a href="#">desxgnerX</a></li>
+			</div>
+
+			<div class="contact-icons">
+				<a href="#"><i class='bx bxl-dribbble'></i></a>
+				<a href="#"><i class='bx bxl-github'></i></a>
+				<a href="#"><i class='bx bxl-instagram-alt'></i></a>
+				<a href="#"><i class='bx bxl-medium'></i></a>
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<form action="verify_recapture.php" method="post">
+				<input type="text" name="name" placeholder="Your Name" required>
+				<input type="email" name="email" placeholder="Your Email Address" required>
+				<input type="text" name="phone_number" placeholder="Your Mobile Number" required>
+				<textarea name="message" id="message" cols="35" rows="10" placeholder="How Can I Help You"
+					required></textarea>
+				<br>
+				<div class="g-recaptcha" data-sitekey="6Ld5gJsjAAAAAFcMmX1J79m_pyJhIK138dRve94B"></div>
+				<br>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+	</section>
+
+	<!----end section design--->
+	<section class="end">
+		<div class="last-text">
+			<p>Copyright © 2022 by Tanaka Sipindiye. All Rights Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+		</div>
+	</section>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
