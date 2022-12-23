@@ -1,2 +1,2 @@
 # demo-portfolio
-Younglings Demo Portfolio Project
+Younglings Africa Demo Portfolio Project
